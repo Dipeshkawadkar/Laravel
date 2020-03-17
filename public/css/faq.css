@@ -1,0 +1,273 @@
+body{
+    background: #e6e6e0;
+}
+.dropdown-item{
+    color: rgb(238, 230, 230);
+}
+.dropdown-item:hover{
+    background-color: transparent;
+    color: white;
+}
+.n1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+@media only screen and (max-width: 992px) {
+    .n1{
+     padding-top: 10px;
+    }
+     }
+
+.df{
+/* margin-left: 50px; */
+    margin-top: 130px;
+    color: #646461;
+    font-size: 18px;
+    line-height: 30px;
+    overflow: hidden;
+    padding: 70px 0;
+}
+.p1{
+    font-family: lobster;
+    letter-spacing: 3px;
+    font-size: 1.2em;
+}
+.p2{
+    font-family: lobster;
+    letter-spacing: 3px;
+    font-size: 1.2em;
+    margin-top: 6%;
+}
+.p3{
+    font-family: lobster;
+    letter-spacing: 3px;
+    font-size: 1.2em;
+    margin-top: 6%;  
+}
+.p4{
+    font-family: lobster;
+    letter-spacing: 3px;
+    font-size: 1.2em;
+    margin-top: 6%;  
+}
+.p5{
+    font-family: lobster;
+    letter-spacing: 3px;
+    font-size: 1.2em;
+    margin-top: 6%;  
+}
+.p551{
+
+    letter-spacing: 1px;
+    /* font-size: 0.8em; */
+     
+}
+.h22{
+    padding-left: 50px;
+}
+.pr{
+    padding-left: 0px;
+} 
+
+@media only screen and (max-width: 992px) {
+  .row{
+   padding-left: 20px;
+   padding-right: 10px
+  }
+   }
+  
+@media only screen and (max-width: 600px) {
+
+  .h2{
+    font-size: 1.4em
+  }
+}
+@media only screen and (max-width: 400px) {
+
+  .h2{
+    font-size: 1.3em
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+  .p1,.p2,.p3,.p4{
+    font-size: 1.1em
+  }
+  .p11,.p22,.p33,.p44,.p55{
+    font-size: 0.9em;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Start Footer Start Footer Start Footer Start Footer Start Footer Start Footer Start Footer Start*/
+
+#F1{
+  background-image: url(../images/Footer-Background.png);
+  height:12em;
+  padding-top: 50px;
+  align-items: left;
+  border-bottom: 2px solid #252524;
+}
+#F1-text{
+  margin-left: 5%;
+  display: inline-block;
+  font-family: serif;
+  color:white;
+  width: 50%;
+}
+#alm-black{
+  color:#8e8e8a;
+  font-size: 1em;
+  margin-left: 5%;
+}
+h3{
+  font-size: 1.7em;
+  min-width: 200px;
+}
+.F2-text{
+  display: inline-block;
+  width: 250px;
+  margin-right: 20px;
+}
+.F2-extend{
+  display: inline-block;
+}
+.F2-img{
+  width:30px;
+  height: auto;
+  margin-bottom: 10px;
+}
+#F1-logo{
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  right:10%;
+  line-height: 0;
+}
+.F2-text2{
+  font-size: 1em;
+  color: white;
+}
+ .a1{
+    color: #dc7725;
+   }
+   .a2{
+    color:#8e8e8a;
+   }
+#F2-container{
+  margin: auto;
+  width:85%;
+}
+.Extend-logo{
+  display: inline-block;
+  padding-right: 9px;
+}
+.F2-link{
+  display: block;
+  border-bottom: 1px solid #464646;
+  color:#a9a9a0;
+  font-size: 0.8em;
+  font-family: 'Open Sans',Sans;
+  text-decoration: none;
+  color: #a9a9a0;
+  line-height: 50px;
+}
+.F2-link:hover{
+  color:#dc7725;
+  text-decoration: none;
+}
+.a2:hover{
+  color:inherit;
+  text-decoration: none;
+  cursor: default;
+}
+.a1:hover{
+  color: #dc7725;
+  text-decoration: none;
+}
+#F2{
+  line-height: 30px;
+  padding-top: 50px;
+  background-color: #333333; 
+  border-top: 1px solid #3e3e3d;
+  font-size: 1.3em;
+}
+.logo{
+  position: absolute;
+  width: 70px;
+  height: auto;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+@media only screen and (max-width: 56.25em) {
+
+  .logo{ 
+   width: 75px;
+   }
+   #F1-logo{
+    width: 70px;
+    height: auto;
+   }
+   #F1{
+    padding-top: 45px;
+   }
+   .F2-extend{
+    padding-top: 20px;
+   }
+   h3{
+    font-size: 1.5em;
+   }
+  }
+  @media only screen and (max-width: 48em) {
+    .logo{
+      margin-top: 30px;
+    }
+    h3{
+      font-size: 1.3em;
+    }
+    #F1-logo{
+      display:none;
+    }
+    #F1{
+    padding-top: 45px;
+   }
+   #F2-container{
+    width: 90%;
+   }
+    }
+  @media only screen and (max-width: 37.5em) {
+    .logo {
+      width: 60px;
+  height: auto;
+  margin-top: 28px;
+  margin-left: 20px;
+     }
+     #F1-logo{
+      display: none;
+     }
+     .F2-text{
+      width:90%;
+     }
+     .F2-link{
+      text-align: center;
+     }
+
+     .F2-extend{
+      text-align: center;
+      display: block;
+     }
+    }

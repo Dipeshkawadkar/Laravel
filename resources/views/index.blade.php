@@ -1,0 +1,267 @@
+@extends('layouts.app')
+
+@section('content')
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>NATOURS | Exciting tours for adventorous people</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> 
+    <link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/my.css" >
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/my1.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/below_gallery.css">
+  
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"rel="stylesheet">
+    <script src="/js/my.js"></script>
+    <script src="/js/navbar.js"></script>
+  </head>
+
+<body>
+
+    
+    <!-- HEADER TEXTBOX  HEADER TEXTBOX  HEADER TEXTBOX  HEADER TEXTBOX  HEADER TEXTBOX  -->
+    <header class="header" id="header">
+        <div class="box">
+            <img src="/images/pic3.png" alt="Logo" class="logo">
+            <p class="logoright">NATOURS</p>
+        </div>
+        <div class="textbox">
+            <img src="/images/icon-alaska.png" class="pngg">
+        <h2 class="header_1">ENJOY THE SOLITUDE & SOLACE OF</h2>
+        <h1 class="header_2">ARCTIC TOUR</h1>
+         <!-- HEADER TEXTBOX  HEADER TEXTBOX  HEADER TEXTBOX  HEADER TEXTBOX  HEADER TEXTBOX  -->
+
+
+            <!-- VIDEO  VIDEO  VIDEO  VIDEO  VIDEO  VIDEO  VIDEO  VIDEO VIDEO  VIDEO  VIDEO  VIDEO  VIDEO  VIDEO  VIDEO  VIDEO -->
+        
+           <a href="#" onclick="lightbox_open();"> <button type="button" class="btn  png2">Click Here </button></a>
+          
+
+        </div>
+        <div id="light">
+            <a href="#header" class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+            <video id="VisaChipCardVideo"  controls>
+                <source src="video/Arctic-Wild.mp4" type="video/mp4">
+            
+              </video>
+          </div>
+
+          <div id="fade" onClick="lightbox_close();"></div>
+     <!-- VIDEO END  VIDEO END  VIDEO END  VIDEO END  VIDEO END  VIDEO END  VIDEO END  VIDEO END -->
+    </header>
+
+      <!-- SECTION1 FROM NAVBAR      SECTION1 FROM NAVBAR     SECTION1 FROM NAVBAR -->
+            <section class="section1">            
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark " id="navbar">
+                    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="index">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="rafting">Rafting</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="Backpacking">Backpacking</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="canoe">Canoe</a>
+                        </li>
+                        <li class="vertline"></li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            More
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                         
+                            <a class="dropdown-ite" href="packraft">Packraft</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-ite" href="photography">Photography</a>
+                            <div class="dropdown-divider"></div>
+                            
+                            <a class="dropdown-ite" href="Trips">All Trips</a>
+                          </div>
+                        </li>
+                      </ul>
+                      <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </nav>           
+            </section>
+            <!-- SECTION1 TO NAVBAR      SECTION1 TO NAVBAR     SECTION1 TO NAVBAR -->
+
+
+            <!-- GALLERY  GALLERY  GALLERY  GALLERY  GALLERY  GALLERY  GALLERY  -->
+            <section id="gallery">
+              <div class="gallery-row">
+                <div class="gallery1">
+                   
+                  <a href="#"> <div class="t text1">RAFTING TRIPS</div></a>
+                  <div class="over"></div>
+                </div>
+                <div class="gallery2">
+                   
+                                           <div class="t text2">BASE CAMP TRIPS</div></a>
+                                          <div class="over"></div>
+                </div>
+                <div class="gallery3">
+                  
+                                              <div class="t text3">BACKPACKING TRIPS</div></a>
+                                          <div class="over"></div>
+                </div>
+              </div>
+              <div class="gallery-row">
+                <div class="gallery4">
+                   
+                                            <div class="t text4">CANOE TRIPS</div></a>
+                                          <div class="over"></div>
+
+
+                </div>
+                <div class="gallery5">
+                   
+                                          <a href="#"><div class="t text5">PHOTOGRAPHY TRIPS</div></a>
+                                          <div class="over"></div></div>
+
+                
+                <div class="gallery6">
+                 
+                                          <div class="t text6">CUSTOM TRIPS</div></a>
+                                          <div class="over"></div>
+                </div>
+              </div>
+            </section>
+
+
+            <!-- GALLERY  GALLERY  GALLERY  GALLERY  GALLERY  GALLERY  GALLERY  -->
+
+
+            <!-- BELOW GALLERY  BELOW GALLERY    BELOW GALLERY  BELOW GALLERY       BELOW GALLERY  BELOW GALLERY -->
+            <section class="below_galery">
+              <div class="container text_below"><br><br>
+            <p class="text_inside_below">COME AND EXPERIENCE THE</p>
+          <p class="text_inside_below1">ARCTIC WILD</p>
+        <div class="underline"></div>
+        <div class="col-9 col-md-12 col-sm-12 zxa">
+        <p class="text_inside_below2">Arctic Wild provides professionally guided Alaska adventure tours in Alaska’s vast wilderness. 
+          Trust your Alaskan adventure vacation to an experienced <a href="#" class="arctic">Arctic Wild Guide.</a><br><br>
+
+            Groups are small (1 to 8 people), we travel quietly, and the focus is on the land and its inhabitants. Whether you 
+            join us for a base camp trip, river rafting, canoeing or backpacking adventure there
+             is plenty of free time for you to explore, bird watch, photograph, fish or do whatever pleases you most.</p></div>
+             
+           <a href="contact"> <button type="button" class="btn btn-light btnn1">Book your adventure !</button></a>
+          <div class="hr"></div>
+            </section>
+
+
+            <!-- ARCTIC GUIDES  ARCTIC GUIDES  ARCTIC GUIDES  ARCTIC GUIDES  ARCTIC GUIDES  ARCTIC GUIDES -->
+            <section class="below_map">
+                <div class="black ">
+                <div class="row ">
+                    <div class="col-lg-6 col-md-12 skilled">
+                        <p class="txt1">ASTOUNDINGLY SKILLED</p>
+                        <p class="txt2">ARCTIC GUIDES</p>
+                        <div class="underl"></div>
+                        <p class="txt3">Remote wilderness travel demands professional guides with exceptional technical skills. 
+                            Our clients demand personable, knowledgeable, and hard working guides.</p><br>
+                            <p class="txt4">Arctic Wild is fortunate to have an astoundingly skilled, informed and passionate group of guides working with us. 
+                                Some guides only work one trip a year while some hike and paddle with us all summer long for decades.</p>
+                              <a href="6-budgety/index">  <button type="button" class="btn btn-warning btn3">CALCULATE YOUR BUDGET</button></a>
+                            </div>
+                            <div class="col-lg-6 photo">
+                                <img src="/images/bg-guide.jpg" alt="guides" class="/img-responsive xc">
+                            </div>
+
+                </div>
+                </div>
+            </section>
+
+
+          <footer>
+        <div id="F1">
+            <div id="F1-text">
+                <h3>
+                COPYRIGHT © ARCTIC WILD 2018
+                </h3>
+            </div>
+            <div id="F1-logo">
+                <img src="/images/pic3.png" id="F1-logo" class="logo">
+            </div>
+            <div>
+                <h5 id="alm-black">
+                    <a href="mailto:info@arcticwild.com" class="a1">
+                        info@arcticwild.com 
+                    </a>
+                    – 
+                    <a href="tel:9074298203" class="a2">907.479.8203</a>
+                    – Box 80562, Fairbanks, Alaska 99708
+                </h5>
+            </div>
+        </div>
+        <div id="F2">
+            <div id="F2-container">
+                <div class="F2-text">
+                    <a href="index" class="F2-link">
+                        HOME
+                    </a>
+                    <a href="Trips" class="F2-link">
+                        TRIPS
+                    </a>
+                    <a href="Planning" class="F2-link">
+                        PLANNING
+                    </a>
+                    
+                </div>
+                <div class="F2-text">
+                    <a href="faq" class="F2-link">
+                        FAQ
+                    </a>
+                   
+                    <a href="contact" class="F2-link">
+                        CONTACT
+                    </a>
+                    <a href="About" class="F2-link">
+                        ABOUT
+                    </a>
+                </div>
+                <!-- <div class="F2-extend">
+                    <div class="Extend-logo">
+                        <a href="#">
+                            <img src="images/Facebook.png" class="F2-img">
+                        </a>
+                    </div>
+                    <div class="Extend-logo">
+                        <a href="#">
+                            <img src="images/letter-icon.png" class="F2-img">
+                        </a>
+                    </div> -->
+                    <!-- <p class="F2-text2">
+                        Design by <a href="#" class="F2-link">Shivam.</a>
+                    </p>
+                    <p class="F2-text2">
+                        Marketing by <a href="#" class="F2-link">Vikas.</a>
+                    </p> -->
+                </div>
+            </div>
+        </div>
+    </footer>   
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>                    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
+@endsection

@@ -1,0 +1,484 @@
+
+          
+
+
+
+
+
+
+/* NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR */
+
+.dropdown-item{
+    color: rgb(238, 230, 230);
+}
+.dropdown-item:hover{
+    background-color: transparent;
+    color: white;
+}
+.n1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+@media only screen and (max-width: 992px) {
+    .n1{
+     padding-top: 10px;
+    }
+     }
+
+
+/* ICONS ICONS ICONS ICONS ICONS ICONS ICONS ICONS ICONS ICONS ICONS ICONS*/
+.icon1{
+  width: 100%;
+  top: 31%;
+  /* left: 0; */
+  margin-top: 40px;
+  margin-left: 120px;
+}
+.icon1 a{
+  display:inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(/wp-content/themes/arcticwild/assets/img/bg-trans-icon.png) center repeat;
+  background-size: cover;
+  background-size: 100%;
+}
+.icon-img{
+  background-color: rgb(56, 55, 55);
+  border-radius: 100%;
+  transition: all 0.3s;
+  transform: scale(0.8);
+}
+.icon1 .icon-trip{
+  transition: all 0.3s;
+}
+/* .icon1 .icon-trip:hover{
+  transform: scale(0.8);
+} */
+.icon1 .icon-img:hover{
+  transform: scale(0.9);
+}
+
+
+/* ICONS ICONS ICONS ICONS ICONS ICONS ICONS ICONS ICONS ICONS ICONS*/
+
+
+
+     /* HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER */
+     .header{
+        background-image: url(../images/Mountains.jpg);
+      
+        height: 70vh;
+        background-position: top center;
+        background-size: cover;
+        padding-top: 11%;
+     }
+     .text-center{
+       line-height: 1;
+     }
+     .text_inside_below{
+         color:white;
+         font-size: 1.2em;
+        font-weight: 700;
+        letter-spacing: 4px;
+        transform: scaleY(1.2);
+       margin-top:80px;
+        /* position: absolute; */
+        /* margin-top: 30%; */
+        
+     }
+     @media only screen and (max-width: 800px) {
+       .text_inside_below{
+        margin-top: 130px;
+       }
+      }
+     .text_inside_below1{
+         color:white;
+         font-size: 4em;
+         font-weight: 500;
+         letter-spacing: 5px;
+         transform: scaleY(2.4);
+         transform:scaleX(1.1)
+     }
+     @media only screen and (max-width: 600px) {
+      .text_inside_below{
+       /* margin-top: 130px; */
+       font-size: 1em;
+       margin-top: 170px;
+      }
+      .text_inside_below1{
+        font-size: 2.6em;
+      }
+     }
+     @media only screen and (max-width: 400px) {
+      .text_inside_below{
+       /* margin-top: 130px; */
+       font-size: 0.9em;
+       margin-top: 190px;
+      }
+      .text_inside_below1{
+        font-size: 2.1em;
+      }
+     }
+     .btn-warning{
+      margin-top: 1.5%;
+      background: #dc7725;
+      border-color: #dc7725;
+      padding: 15px 20px;
+      color: white;
+      font-size: 0.8em;
+     }
+     .btn-warning:hover{
+      background: #dc7725;
+      color: white;
+     }
+     .content{
+      background-color: #e6e6e0;
+      margin-bottom: 50px;
+      font-size: 1.8em;
+      margin-left: -5%;
+      /* padding-top:3%; */
+     }
+
+
+
+
+
+
+
+     
+
+
+.cb1{
+  background-image: url(../images/Dogs-on-Ice.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 270px;
+}
+.cb2{
+  background-image: url("../images/gla.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 270px;
+}
+.cb3{
+  background-image: url(../images/Noatak.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 270px;
+}
+.cb4{
+  background-image: url(../images/Kongakut.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 270px;
+}
+.cb5{
+  background-image: url(../images/Caribou-canoe.jpg);
+  /* background-image: url(../images/Yukon.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 270px;
+}
+.cb6{
+  background-image: url(../images/hulahula.jpg);
+  /* background-image: url(../images/Brooks.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 270px;
+}
+.cb7{
+  background-image: url(../images/Packraft.jpg);
+  /* background-image: url(../images/glacier-bay.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 270px;
+}
+.cb8{
+  background-image: url("../images/as.jpg");
+  /* background-image: url(../images/Caribou-canoe.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 270px;
+}
+.cb9{
+  background-image: url(../images/er.jpg);
+  /* background-image: url(../images/hulahula.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 270px;
+}
+.cb10{
+  background-image: url(../images/mission-caribou.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 270px;
+}
+.cb11{
+  background-image: url(../images/xc.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 270px;
+}
+.cb12{
+  background-image: url(../images/Yukon.jpg);
+ 
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 270px;
+}
+.cb13{
+  background-image: url(../images/hj.jpg);
+  /* background-image: url(../images/Alatna-Noatak.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 270px;
+}
+.cb14{
+  background-image: url("../images/tr.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 270px;
+}
+.cb15{
+  background-image: url(../images/Katmai-Bears.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 270px;
+}
+.cb16{
+  background-image: url(../images/ni.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 270px;
+}
+.cb17{
+  background-image: url(../images/no.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 270px;
+}
+.cb18{
+  background-image: url(../images/ar.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 270px;
+}
+.cb19{background-image: url(../images/vb.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 270px;
+}
+
+.cb20{
+  background-image: url("../images/qw.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 270px;
+}
+.cb21{
+   background-image: url(../images/Polar-bear.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 270px;
+}
+.cb22{
+  background-image: url(../images/ty.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+height: 270px;
+}
+.card{
+  position: relative;
+}
+.u{
+  position: relative;
+  height: 5px;
+  width: 50px;
+  top: 79%;
+  background-color:orange
+}
+.pup{
+  position: relative;
+  top: 82%;
+  color: white
+}
+.pdn{
+  position: relative;
+  top: 76%;
+  color: white
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Start Footer Start Footer Start Footer Start Footer Start Footer Start Footer Start Footer Start*/
+
+
+#F1{
+  background-image: url(../images/Footer-Background.png);
+  height:12em;
+  padding-top: 50px;
+  align-items: left;
+  border-bottom: 2px solid #252524;
+}
+#F1-text{
+  margin-left: 5%;
+  display: inline-block;
+  font-family: serif;
+  color:white;
+  width: 50%;
+}
+#alm-black{
+  color:#8e8e8a;
+  font-size: 1em;
+  margin-left: 5%;
+}
+h3{
+  font-size: 1.7em;
+  min-width: 200px;
+}
+.F2-text{
+  display: inline-block;
+  width: 250px;
+  margin-right: 20px;
+}
+.F2-extend{
+  display: inline-block;
+}
+.F2-img{
+  width:30px;
+  height: auto;
+  margin-bottom: 10px;
+}
+#F1-logo{
+  width: 70px;
+  height: auto;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 17vw;
+  right:10%;
+  line-height: 0;
+}
+.F2-text2{
+  font-size: 1em;
+  color: white;
+}
+ .a1{
+    color: #dc7725;
+   }
+   .a2{
+    color:#8e8e8a;
+   }
+#F2-container{
+  margin: auto;
+  width:85%;
+}
+.Extend-logo{
+  display: inline-block;
+  padding-right: 9px;
+}
+.F2-link{
+  display: block;
+  border-bottom: 1px solid #464646;
+  color:#a9a9a0;
+  font-size: 0.8em;
+  font-family: 'Open Sans',Sans;
+  text-decoration: none;
+  color: #a9a9a0;
+  line-height: 50px;
+}
+.F2-link:hover{
+  color:#dc7725;
+  text-decoration: none;
+}
+.a2:hover{
+  color:inherit;
+  text-decoration: none;
+  cursor: default;
+}
+.a1:hover{
+  color: #dc7725;
+  text-decoration: none;
+}
+#F2{
+  line-height: 30px;
+  padding-top: 50px;
+  background-color: #333333; 
+  border-top: 1px solid #3e3e3d;
+  font-size: 1.3em;
+}
+
+@media only screen and (max-width: 56.25em) {
+
+  .logo{ 
+   width: 75px;
+   }
+   #F1-logo{
+    width: 70px;
+    height: auto;
+   }
+   #F1{
+    padding-top: 45px;
+   }
+   .F2-extend{
+    padding-top: 20px;
+   }
+   h3{
+    font-size: 1.5em;
+   }
+  }
+  @media only screen and (max-width: 48em) {
+    .logo{
+      margin-top: 30px;
+    }
+    h3{
+      font-size: 1.3em;
+    }
+    #F1-logo{
+      display:none;
+    }
+    #F1{
+    padding-top: 45px;
+   }
+   #F2-container{
+    width: 90%;
+   }
+    }
+  @media only screen and (max-width: 37.5em) {
+    .logo {
+      width: 60px;
+  height: auto;
+  margin-top: 28px;
+  margin-left: 20px;
+     }
+     #F1-logo{
+      display: none;
+     }
+     .F2-text{
+      width:90%;
+     }
+     .F2-link{
+      text-align: center;
+     }
+
+     .F2-extend{
+      text-align: center;
+      display: block;
+     }
+    }
+
+
+
